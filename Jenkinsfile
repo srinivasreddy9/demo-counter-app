@@ -14,7 +14,7 @@ pipeline{
                 }
             }
         }
-        /*stage('UNIT testing'){
+        stage('UNIT testing'){
             
             steps{
                 
@@ -58,7 +58,7 @@ pipeline{
                     
                 }
             }
-            stage('Quality Gate Status'){
+           /* stage('Quality Gate Status'){
                 
                 steps{
                     
